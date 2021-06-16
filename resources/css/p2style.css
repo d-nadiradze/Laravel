@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header{
+    color:#58af9b;
+    text-align: center;
+    text-transform: capitalize;
+
+
+}
+
+.table{
+    width: 90%;
+    margin: 130px auto 0 auto;
+    padding: 30px 20px;
+}
+@media (min-width:1200px ) {
+    .header{
+        font-size: 30px;
+        margin-top: 145px;
+    }
+    #header{
+        border-collapse: separate;
+    }
+    #customers {
+        border-spacing: 0 10px;
+        padding: 0 10px;
+    }
+    #header,#customers{
+        font-size: 17px;
+    }
+
+}
+@media (max-width: 1200px) {
+    .header{
+        font-size: 30px;
+        margin-top: 145px;
+    }
+
+    #header{
+        background: #58af9b;
+        border-radius: 5px;
+    }
+    #customers {
+        border-spacing: 0 10px;
+    }
+
+    #header,#customers{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .header{
+        font-size: 25px;
+
+        margin-top: 80px;
+    }
+
+    #header,#customers{
+        font-size: 13px;
+    }
+
+
+}
+#header {
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    border-spacing: 10px 0;
+}
+
+#header th {
+
+    width: 33%;
+    text-align: center;
+    background-color: #58af9b;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 12px 12px 12px;
+
+}
+#header th:first-child{
+    text-align: left;
+}
+#header th:last-child{
+    text-align: right;
+}
+
+#customers {
+    font-family: 'Noto Sans', sans-serif;
+    width: 100%;
+    border-collapse: separate;
+    margin: 0 auto;
+
+}
+
+
+#customers td, #customers th {
+    padding: 12px 12px 12px 12px;
+}
+
+#customers td {
+    width: 33%;
+    background-color: #e1f8f6;
+    text-align: center;
+}
+
+#customers td:first-child{
+    text-align: left;
+}
+
+#customers td:last-child{
+    text-align: right;
+}
+
+#customers th {
+
+    width: 33.3%;
+    text-align: center;
+    background-color: #58af9b;
+    color: white;
+    border-radius: 5px;
+
+}
+
+#customers th:first-child{
+    text-align: left;
+}
+#customers th:last-child{
+    text-align: right;
+}
